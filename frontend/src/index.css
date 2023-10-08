@@ -1,0 +1,65 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.user-profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.user-avatar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #3498db;
+    color: #ecf0f1;
+    font-size: 48px;
+    line-height: 150px;
+    margin-bottom: 20px;
+}
+
+.user-detail-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.too-weak {
+    background-color: #ffcccc;
+    color: #ff0000;
+}
+
+
+.weak {
+    background-color: #ffd699;
+    color: #ff6600;
+}
+
+.medium {
+    background-color: #ffffcc;
+    color: #ffcc00;
+}
+
+
+.strong {
+    background-color: #ccffcc;
+    color: #00cc00;
+}
+
+.copy-icon {
+    cursor: pointer;
+    margin-left: 5px; /* Adjust the margin as needed */
+    color: blue; /* Change the color as needed */
+  }
+  
+  .copy-icon:hover {
+    color: green; /* Change the color on hover if desired */
+  }
